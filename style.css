@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: "Hina Mincho", sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+    color:white;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  .navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+  
+  .main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+  
+  .mission {
+    display: flex;
+    height: 800px;
+    background-image: url("images/mission-statement.jpg");
+    padding-top: 35px;
+  }
+  
+  .mission .content {
+    margin: auto;
+    width: 100%;
+    opacity: 1;
+    color: black;
+  }
+
+  
+  #meet_the_cats {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .cats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .cat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cat img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .cat span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .location {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .locations {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+  }
+  
+  .location img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  
+  .contact,
+  .copyright {
+    padding-top: 20px;
+  }
